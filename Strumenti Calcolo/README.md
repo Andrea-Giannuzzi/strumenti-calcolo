@@ -1,31 +1,31 @@
-# Strumenti Calcolo
+# Calculation Tools
 
-`Strumenti Calcolo` e' una raccolta di piccoli script Python dedicati al
-calcolo simbolico e al supporto di esercizi di fisica e matematica.
+`Strumenti Calcolo` is a collection of small Python scripts dedicated to
+symbolic computation and to supporting physics and mathematics exercises.
 
-Il progetto nasce con uno script per le derivate simboliche, ma e' pensato per
-crescere: in futuro potranno essere aggiunti nuovi file per altri strumenti di
-calcolo simbolico, per esempio equazioni differenziali, algebra lineare
-simbolica, serie, trasformate, sistemi lagrangiani o manipolazioni di formule.
+The project begins with a script for symbolic derivatives, but it is designed
+to grow: new files may be added in the future for other symbolic computation
+tools, such as differential equations, symbolic linear algebra, series,
+transforms, Lagrangian systems, or formula manipulation.
 
-## Strumenti disponibili
+## Available Tools
 
-| File | Scopo |
+| File | Purpose |
 | --- | --- |
-| `symbolic_derivatives.py` | Esempi guidati di derivate simboliche, derivate parziali, funzioni composte e termini dell'equazione di Eulero-Lagrange. |
+| `symbolic_derivatives.py` | Guided examples of symbolic derivatives, partial derivatives, composite functions, and terms in the Euler-Lagrange equation. |
 
-## Requisiti
+## Requirements
 
-Il progetto usa principalmente **SymPy**, la libreria Python piu' adatta per il
-calcolo simbolico.
+The project mainly uses **SymPy**, the Python library best suited to symbolic
+computation.
 
-Installazione consigliata:
+Recommended installation:
 
 ```bash
 python3 -m pip install sympy
 ```
 
-Se lavori dentro un ambiente virtuale:
+If you are working in a virtual environment:
 
 ```bash
 python3 -m venv .venv
@@ -33,36 +33,35 @@ source .venv/bin/activate
 python -m pip install sympy
 ```
 
-## Come eseguire gli script
+## Running the Scripts
 
-Dalla cartella `Strumenti Calcolo`:
+From the `Strumenti Calcolo` directory:
 
 ```bash
 python3 symbolic_derivatives.py
 ```
 
-Dalla cartella superiore del repository:
+From the parent repository directory:
 
 ```bash
 python3 "Strumenti Calcolo/symbolic_derivatives.py"
 ```
 
-## Documentazione dei singoli strumenti
+## Documentation for Individual Tools
 
-Per i dettagli dello script attuale:
+For details about the current script:
 
 - [`README_symbolic_derivatives.md`](README_symbolic_derivatives.md)
 
-Quando verranno aggiunti nuovi script, ciascuno potra' avere una breve
-documentazione dedicata con scopo, dipendenze, comando di esecuzione ed esempi
-principali.
+When new scripts are added, each may have brief dedicated documentation covering
+its purpose, dependencies, execution command, and main examples.
 
-## Organizzazione prevista
+## Planned Organization
 
-L'idea e' mantenere ogni strumento semplice, leggibile e modificabile:
+The goal is to keep every tool simple, readable, and easy to modify:
 
-- un file Python per ogni argomento principale;
-- commenti didattici nei passaggi matematicamente importanti;
-- esempi gia' pronti, senza input interattivo obbligatorio;
-- README generale aggiornato con l'elenco degli strumenti disponibili;
-- eventuale README specifico per gli script piu' importanti.
+- one Python file for each main topic;
+- educational comments for mathematically important steps;
+- ready-to-use examples with no mandatory interactive input;
+- an updated main README listing the available tools;
+- an optional dedicated README for the most important scripts.
